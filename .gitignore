@@ -1,0 +1,7 @@
+# local data and environments
+data/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
