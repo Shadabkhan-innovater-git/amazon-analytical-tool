@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Amazon Ads Intelligence</title>
+<meta name="description" content="Amazon Ads reporting and intelligence platform: import, validate, compare and export advertising performance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="side-rail" id="rail" aria-label="Report navigation"></aside>
+  <div class="report-wrap">
+    <div class="report-canvas">
+      <header id="overview-top" class="surface top-header">
+        <button type="button" class="action-btn mobile-menu" data-act="menu" aria-label="Menu"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+        <div class="hdr-main" id="hdr-main"></div>
+        <div class="hdr-controls" id="hdr-controls"></div>
+        <div class="chips" id="chips" aria-live="polite"></div>
+        <div class="filter-panel" id="filter-panel" hidden></div>
+      </header>
+      <div id="demo-banner"></div>
+      <nav class="surface tab-strip" id="tab-strip" aria-label="Dashboard sections"></nav>
+      <main id="view"></main>
+    </div>
+  </div>
+</div>
+<div id="tip" class="tip" hidden></div>
+<div id="toast-host" aria-live="polite"></div>
+<div id="modal-host" hidden></div>
+<div id="busy" hidden></div>
+<script src="lib/config.js"></script>
+<script src="lib/i18n.js"></script>
+<script src="i18n/en.js"></script>
+<script src="i18n/locales.js"></script>
+<script src="lib/dates.js"></script>
+<script src="lib/store.js"></script>
+<script src="lib/query.js"></script>
+<script src="lib/state.js"></script>
+<script src="data/demo.js"></script>
+<script src="components/icons.js"></script>
+<script src="components/charts.js"></script>
+<script src="components/table.js"></script>
+<script src="components/tabledefs.js"></script>
+<script src="services/api.js"></script>
+<script src="services/insights.js"></script>
+<script src="services/import.js"></script>
+<script src="services/export.js"></script>
+<script src="components/import-wizard.js"></script>
+<script src="views.js"></script>
+<script src="app.js"></script>
+<script>App.boot();</script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+Date,Country,Campaign Type,Portfolio name,Campaign Name,Targeting,Match Type,Impressions,Clicks,Click-Thru Rate (CTR),Spend,7 Day Total Sales ,Total Advertising Cost of Sales (ACOS) ,7 Day Total Orders (#),7 Day Total Units (#)
+09/01/2026,US,Sponsored Products,Pants,Pants Exact,scrub pants,EXACT,1200,30,2.5%,"$24.50","$120.00",20%,4,5
+09/02/2026,US,Sponsored Products,Pants,Pants Exact,scrub pants,EXACT,1100,28,2.5%,22.10,99.5,22%,3,3
+09/02/2026,US,Sponsored Products,Pants,Pants Exact,scrub pants,EXACT,1100,28,2.5%,22.10,99.5,22%,3,3
+13/40/2026,US,Sponsored Products,Pants,Pants Exact,scrub pants,EXACT,900,20,2.2%,18,50,36%,1,1
+09/03/2026,US,Sponsored Products,Tops,,scrub top,PHRASE,800,15,1.9%,12,60,20%,2,2
+09/03/2026,US,Sponsored Brands,Tops,SB Tops,scrub top,BROAD,500,9,1.8%,-5,20,,1,1
+09/04/2026,US,Sponsored Products,Tops,Tops Auto,close-match,,700,12,1.7%,abc,40,,1,1
+09/04/2026,US,Sponsored Products,Tops,Tops Auto,close-match,,700,12,1.7%,9.5,40,,1,1
